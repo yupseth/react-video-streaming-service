@@ -1,0 +1,21 @@
+.singInForm {
+  background: transparent;
+  height: 50%;
+  width: 100vw;
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: -15%;
+  color: rgb(255, 255, 211);
+  font-size: 7rem;
+}
+
+.form {
+  width: 100%;
+}

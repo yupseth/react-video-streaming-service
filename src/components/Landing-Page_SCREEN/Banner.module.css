@@ -1,0 +1,13 @@
+.ladingPoster {
+  height: 50%;
+  width: auto;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0),
+      rgb(0, 0, 0)
+    ),
+    url("https://www.comingsoon.net/wp-content/uploads/sites/3/2022/11/tlou-posters.jpg?w=800");
+
+  background-position: center;
+}

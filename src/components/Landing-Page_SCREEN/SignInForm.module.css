@@ -1,0 +1,48 @@
+input {
+  border: solid 1px rgb(254, 254, 219);
+  border-radius: 30px;
+  width: 70vw;
+  padding: 18px;
+  margin-top: 20px;
+  min-width: 100%;
+  background: transparent;
+  color: #fff;
+}
+input:focus {
+  outline: none;
+}
+::placeholder {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 5rem;
+}
+
+.signInBtn {
+  padding: 10px;
+  width: 40vw;
+  border-radius: 30px;
+  background-color: rgb(180, 12, 12);
+  border: none;
+  font-size: 1.3rem;
+  color: #ffffffc8;
+  /* font-family: "Bebas Neue", cursive; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
